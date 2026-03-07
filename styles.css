@@ -1,0 +1,30 @@
+.menu {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgba(237, 228, 228, 0.747);
+}
+
+.conteudo {
+    border: 2px solid rgba(37, 35, 35, 0.747);
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+img {
+    max-width: 100%;
+    min-width: none;
+}
+
+.valor {
+    font-size: 40px;
+}
+
+li {
+    font-size: 20px;
+}
+
+td{
+    background-color:rgba(237, 228, 228, 0.747);
+}
