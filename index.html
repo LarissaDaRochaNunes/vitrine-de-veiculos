@@ -7,54 +7,52 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <table class="menu">
-            <tr>
-                <th style="color: rgb(253, 33, 33);"><h1>Vitrine Automotiva</h1></th>
-                <th><a href="#">Comprar</a></th>
-                <th><a href="#">Vender</a></th>
-                <th><a href="#">Contato</a></th>
-                <th><a href="#">Trabalhe Conosco</a></th>
-            </tr>
-        </table>
-    </nav>
+    <header>
+        <nav class="menu">
+            <h1 class="logo">Vitrine Automotiva</h1>
+            <ul class="menu-links">
+                <li><a href="#">Comprar</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Trabalhe Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+    
     <main>
-        <h1>Novidade da semana</h1>
-        <table class="conteudo">
-            <tr>
-                <td><img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2026/202603/20260307/citroen-c3-1.0-firefly-flex-live-pack-manual-wmimagem09142115982.jpg" alt="Citroen g3"></td>
-                <td><img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2026/202601/20260131/fiat-argo-1.0-firefly-flex-drive-manual-wmimagem14491158753.jpg" alt="Fiat Argo"></td>
-                <td><img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2026/202602/20260202/fiat-mobi-1.0-evo-flex-like.-manual-wmimagem15564113663.jpg" alt="Fiat Mobi"></td>
-            </tr>
-            <tr>
-                <th><h2>Citroen G3</h2></th>
-                <th><h2>Fiat Argo</h2></th>
-                <th><h2>Fiat Mobi</h2></th>
-            </tr>
-            <tr>
-                <td>
-                    <ul type="none">
+        <h2>Novidade da semana</h2>
+        
+        <section class="conteudo">
+            <article class="card-carro">
+                <img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2026/202603/20260307/citroen-c3-1.0-firefly-flex-live-pack-manual-wmimagem09142115982.jpg" alt="Citroen G3 na cor prata">
+                <h3>Citroen G3</h3>
+                <ul class="detalhes">
                     <li>Manual 1.0</li>
-                    <li>2024/2025  29,437 km</li>
+                    <li>2024/2025  29.437 km</li>
                     <li class="valor">R$ 72.990</li>
                 </ul>
-                </td>
-                <td>
-                    <ul type="none">
-                        <li>Manual 1.0</li>
-                        <li>2024/2025  16,645 km</li>
-                        <li class="valor">R$ 73.990</li>
-                    </ul>
-                </td>
-                <td>
-                    <ul type="none">
-                        <li>Manual 1.0</li>
-                        <li>2023/2024  8,174 km</li>
-                        <li class="valor">R$ 63.690</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
+            </article>
+
+            <article class="card-carro">
+                <img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2026/202601/20260131/fiat-argo-1.0-firefly-flex-drive-manual-wmimagem14491158753.jpg" alt="Fiat Argo na cor branca">
+                <h3>Fiat Argo</h3>
+                <ul class="detalhes">
+                    <li>Manual 1.0</li>
+                    <li>2024/2025  16.645 km</li>
+                    <li class="valor">R$ 73.990</li>
+                </ul>
+            </article>
+
+            <article class="card-carro">
+                <img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2026/202602/20260202/fiat-mobi-1.0-evo-flex-like.-manual-wmimagem15564113663.jpg" alt="Fiat Mobi na cor preta">
+                <h3>Fiat Mobi</h3>
+                <ul class="detalhes">
+                    <li>Manual 1.0</li>
+                    <li>2023/2024  8.174 km</li>
+                    <li class="valor">R$ 63.690</li>
+                </ul>
+            </article>
+        </section>
     </main>
 </body>
 </html>
