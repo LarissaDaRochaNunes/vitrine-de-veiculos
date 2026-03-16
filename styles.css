@@ -85,4 +85,34 @@ body {
 }
 
 .card-carro {
-    flex: 1; /* Faz com que
+    flex: 1; /* Faz com que todos os cards tenham a mesma largura */
+    border: 1px solid #ddd; /* Opcional: bordinha leve para destacar cada carro */
+    border-radius: 8px; /* Opcional: cantos arredondados no card */
+    padding-bottom: 15px;
+    overflow: hidden; /* Mantém a imagem dentro dos cantos arredondados */
+}
+
+.card-carro img {
+    max-width: 100%; /* Garante que a imagem não vaze do contêiner */
+    height: auto;
+    border-bottom: 1px solid #ddd; /* Opcional: linha separando a foto do texto */
+}
+
+.card-carro h3 {
+    margin: 15px 0 5px 0;
+}
+
+.detalhes {
+    list-style: none; /* Remove as bolinhas da lista */
+    padding: 0;
+    margin: 0;
+    color: #555;
+    font-size: 0.9em;
+}
+
+.valor {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #000;
+    margin-top: 10px;
+}
